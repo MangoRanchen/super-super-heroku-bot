@@ -17,5 +17,29 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'gay') {
+    	message.reply('dont call me gay get some respect');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'hentai') {
+    	message.reply('well no sorry');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'NSFW') {
+    	message.reply('i said no');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Piss') {
+    	message.reply('then fuck off');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
