@@ -61,7 +61,8 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('here the commands : !good !nevyseal !onejob !Piss !NSFW !hentai !gay, have fun');
+    	message.reply('here the commands : !good !nevyseal !onejob !Piss !NSFW !hentai !gay, have fun
+                      here a server for ya https://discord.gg/A7eVMDV have a nice pool');
   	}
 });
 
